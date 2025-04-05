@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sheridan College Capstone Project Management System - Showcase your innovation and excellence in technology">
+    <title>Sheridan Capstone Management System</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);" role="navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+          <img src="https://media-www.sheridancollege.ca/-/media/project/sheridan/shared/images/logos/sheridan-logo-header.svg?iar=0&rev=9aef8a944ba94fda83019bff6b668519&extension=webp&hash=A637374EF11E906EA76F77682CC172BB" alt="Sheridan College Logo" style="height: 32px; width: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                style="border: none; padding: 8px;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" style="gap: 8px;">
+            <li class="nav-item">
+              <a class="nav-link" href="#home" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#registration" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Registration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#results" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Results</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#admin" style="color: #002D72; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease;">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="app" role="main" class="fade-in"></main>
+
+    <!-- Loading Indicator -->
+    <div id="loading-indicator" class="position-fixed top-50 start-50 translate-middle d-none">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
