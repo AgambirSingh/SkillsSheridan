@@ -11,7 +11,7 @@
   --bg-light: #F4F5F7;        /* Light background */
   --border-color: #DFE1E6;    /* Border color */
   
-  /* Spacing System */
+  /* Spacing */
   --space-unit: 8px;
   --space-xs: calc(var(--space-unit) * 1);  /* 8px */
   --space-sm: calc(var(--space-unit) * 2);  /* 16px */
